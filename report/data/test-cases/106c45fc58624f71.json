@@ -1,0 +1,71 @@
+{
+  "uid" : "106c45fc58624f71",
+  "name" : "test_search_success[a-a1]",
+  "fullName" : "test_a.TestSearch#test_search_success",
+  "historyId" : "cacbe1ea5cd3a1ef412878a55b27ac07",
+  "time" : {
+    "start" : 1606879640014,
+    "stop" : 1606879640020,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'a' == 'a1'\n  - a1\n  + a",
+  "statusTrace" : "self = <test_a.TestSearch object at 0x0000000004119400>, a = 'a', b = 'a1'\n\n    @allure.story(\"搜索成功\")\n    @pytest.mark.parametrize(['a', 'b'], yaml.safe_load(open(\"./data.yaml\")))\n    def test_search_success(self,a,b):\n        # print(\"这是搜索：测试用例，搜索成功\")\n>       assert a == b\nE       AssertionError: assert 'a' == 'a1'\nE         - a1\nE         + a\n\ntest_a.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索模块"
+  }, {
+    "name" : "story",
+    "value" : "搜索成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_a"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "LIUHONG-L2"
+  }, {
+    "name" : "thread",
+    "value" : "17308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_a"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'a'"
+  }, {
+    "name" : "b",
+    "value" : "'a1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "106c45fc58624f71.json",
+  "parameterValues" : [ "'a'", "'a1'" ]
+}

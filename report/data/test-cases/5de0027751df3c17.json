@@ -1,0 +1,71 @@
+{
+  "uid" : "5de0027751df3c17",
+  "name" : "test_search_success[1-2]",
+  "fullName" : "test_a.TestSearch#test_search_success",
+  "historyId" : "ac631ae86304ed1103163d0cc284b090",
+  "time" : {
+    "start" : 1606879639950,
+    "stop" : 1606879639950,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 2",
+  "statusTrace" : "self = <test_a.TestSearch object at 0x00000000040A9DD8>, a = 1, b = 2\n\n    @allure.story(\"搜索成功\")\n    @pytest.mark.parametrize(['a', 'b'], yaml.safe_load(open(\"./data.yaml\")))\n    def test_search_success(self,a,b):\n        # print(\"这是搜索：测试用例，搜索成功\")\n>       assert a == b\nE       assert 1 == 2\n\ntest_a.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "搜索模块"
+  }, {
+    "name" : "story",
+    "value" : "搜索成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_a"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "LIUHONG-L2"
+  }, {
+    "name" : "thread",
+    "value" : "17308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_a"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5de0027751df3c17.json",
+  "parameterValues" : [ "1", "2" ]
+}
